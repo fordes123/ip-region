@@ -1,7 +1,7 @@
 export interface Adapter {
 
-  query(ip: string | null): Promise<Data>;
-  
+  query(base: Data): Promise<Data>;
+
 }
 
 export interface Data {
